@@ -1,0 +1,127 @@
+2022-08-08T13:12:00,819 [main] INFO  c.t.m.practice1.PracticeApplication - Starting PracticeApplication using Java 11.0.6 on TSN-A0030 with PID 2384 (D:\practice1\target\classes started by M.Mehranfar in D:\practice1)
+2022-08-08T13:12:00,821 [main] INFO  c.t.m.practice1.PracticeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-08-08T13:12:01,356 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2022-08-08T13:12:01,361 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-08T13:12:01,361 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-08T13:12:01,361 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-08T13:12:01,427 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-08T13:12:01,427 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 573 ms
+2022-08-08T13:12:01,615 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2022-08-08T13:12:01,627 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-08T13:12:01,635 [main] INFO  c.t.m.practice1.PracticeApplication - Started PracticeApplication in 1.045 seconds (JVM running for 1.615)
+2022-08-08T13:19:07,114 [main] INFO  c.t.m.a.PracticeApplication - Starting PracticeApplication using Java 11.0.6 on TSN-A0030 with PID 19400 (D:\practice1\target\classes started by M.Mehranfar in D:\practice1)
+2022-08-08T13:19:07,116 [main] INFO  c.t.m.a.PracticeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-08-08T13:19:07,646 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2022-08-08T13:19:07,651 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-08T13:19:07,652 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-08T13:19:07,652 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-08T13:19:07,713 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-08T13:19:07,713 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 567 ms
+2022-08-08T13:19:07,919 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2022-08-08T13:19:07,931 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-08T13:19:07,939 [main] INFO  c.t.m.a.PracticeApplication - Started PracticeApplication in 1.045 seconds (JVM running for 1.6)
+2022-08-08T13:35:19,951 [http-nio-8083-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-08T13:35:19,953 [http-nio-8083-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-08T13:35:19,954 [http-nio-8083-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-08-08T13:35:19,965 [http-nio-8083-exec-3] INFO  LoggingServiceImpl - 
+REQUEST:
+   method = [GET]
+   path = [/helloworld]
+
+2022-08-08T13:35:19,973 [http-nio-8083-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'name' for method parameter type String is not present]
+2022-08-08T13:35:19,977 [http-nio-8083-exec-3] INFO  LoggingServiceImpl - 
+REQUEST:
+   method = [GET]
+   path = [/error]
+
+2022-08-08T13:35:20,001 [http-nio-8083-exec-3] INFO  LoggingServiceImpl - 
+RESPONSE:
+   method = [GET]
+   responseBody = [{timestamp=Mon Aug 08 13:35:19 IRDT 2022, status=400, error=Bad Request, path=/helloworld}]
+   HTTP STATUS = 400
+
+2022-08-08T13:36:05,420 [http-nio-8083-exec-8] INFO  LoggingServiceImpl - 
+REQUEST:
+   method = [GET]
+   path = [/helloworld]
+   parameters = [{name=marjanMEHranfar}]
+
+2022-08-08T13:36:05,428 [http-nio-8083-exec-8] INFO  LoggingServiceImpl - 
+RESPONSE:
+   method = [GET]
+   responseBody = [Hello Marjanmehranfar]
+   HTTP STATUS = 200
+
+2022-08-08T13:37:12,078 [http-nio-8083-exec-7] INFO  LoggingServiceImpl - 
+REQUEST:
+   method = [GET]
+   path = [/helloworld]
+   parameters = [{name=marjanMehranfar}]
+
+2022-08-08T13:37:12,079 [http-nio-8083-exec-7] INFO  LoggingServiceImpl - 
+RESPONSE:
+   method = [GET]
+   responseBody = [Hello Marjanmehranfar]
+   HTTP STATUS = 200
+
+2022-08-08T13:37:20,678 [http-nio-8083-exec-4] INFO  LoggingServiceImpl - 
+REQUEST:
+   method = [GET]
+   path = [/helloworld]
+   parameters = [{name=MarjanMehranfar}]
+
+2022-08-08T13:37:20,679 [http-nio-8083-exec-4] INFO  LoggingServiceImpl - 
+RESPONSE:
+   method = [GET]
+   responseBody = [Hello Marjanmehranfar]
+   HTTP STATUS = 200
+
+2022-08-08T13:39:02,232 [main] INFO  c.t.m.a.PracticeApplication - Starting PracticeApplication using Java 11.0.6 on TSN-A0030 with PID 3792 (D:\practice1\target\classes started by M.Mehranfar in D:\practice1)
+2022-08-08T13:39:02,235 [main] INFO  c.t.m.a.PracticeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-08-08T13:39:02,826 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2022-08-08T13:39:02,831 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-08T13:39:02,832 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-08T13:39:02,832 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-08T13:39:02,899 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-08T13:39:02,900 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 634 ms
+2022-08-08T13:39:03,162 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2022-08-08T13:39:03,176 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-08T13:39:03,185 [main] INFO  c.t.m.a.PracticeApplication - Started PracticeApplication in 1.208 seconds (JVM running for 2.234)
+2022-08-08T13:39:07,729 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-08T13:39:07,730 [http-nio-8083-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-08T13:39:07,731 [http-nio-8083-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-08-08T13:39:07,742 [http-nio-8083-exec-2] INFO  LoggingServiceImpl - 
+REQUEST:
+   method = [GET]
+   path = [/helloworld]
+   parameters = [{name=MarjanMehranfar}]
+
+2022-08-08T13:45:12,718 [http-nio-8083-exec-2] INFO  LoggingServiceImpl - 
+RESPONSE:
+   method = [GET]
+   responseBody = [Hello Marjanmehranfar]
+   HTTP STATUS = 200
+
+2022-08-08T13:45:36,403 [http-nio-8083-exec-6] INFO  LoggingServiceImpl - 
+REQUEST:
+   method = [GET]
+   path = [/author]
+
+2022-08-08T13:45:36,403 [http-nio-8083-exec-6] INFO  LoggingServiceImpl - 
+RESPONSE:
+   method = [GET]
+   responseBody = [Marjan Mehranfar]
+   HTTP STATUS = 200
+
+2022-08-08T13:47:05,838 [http-nio-8083-exec-3] INFO  LoggingServiceImpl - 
+REQUEST:
+   method = [GET]
+   path = [/helloworld]
+   parameters = [{name=Marjan MEHR}]
+
+2022-08-08T13:47:15,171 [http-nio-8083-exec-3] INFO  LoggingServiceImpl - 
+RESPONSE:
+   method = [GET]
+   responseBody = [Hello MarjanMehr]
+   HTTP STATUS = 200
+
