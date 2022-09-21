@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: practice-app
+  namespace: docker-practice
+spec:
+  selector:
+    app: docker-practice
+    version: v1
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 8083
+      name: non-secure
+      targetPort: web
+      nodePort: 30445
+
